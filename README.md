@@ -13,6 +13,15 @@ This is a simple **CRUD application** built using **ASP.NET MVC** and **Entity F
 - **ASP.NET MVC**
 - **Entity Framework**
 - **SQL Server**
+- ✅ Automated Testing
+
+This project includes:
+- Unit tests using `xUnit` and `Moq` for controller logic
+- Integration tests for API endpoints using `WebApplicationFactory`
+- Run all tests via:
+
+```bash
+dotnet test
 
 ## Setup Instructions
 1. Clone this repository:
